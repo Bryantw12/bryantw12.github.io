@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body {
 
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e3f6f5;
+    color: #2d334a;
 }
-font-family: 'Quicksand', sans-serif;s
+a {
+    color: red;
+}
+a:hover{
+
+    color:green
+}
