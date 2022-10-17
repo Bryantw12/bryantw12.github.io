@@ -1,26 +1,43 @@
-<h1>Contact Me</h1>
-    <form
- action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
- method="post"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    </head>
+    <body>
+
+    <div id="navbar">
+      <a href="index.html">Home</a>|
+      <a href="portfolio.html">Portfolio</a>|
+      <a href="contact_me.html">Contact</a>|
+      </div>
+      
+<h1>Contact Me using the following form</h1>
+ 
+   <form
+action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+method="post"
 >
 <input name="send-to" value="bwilliams@brooklynsteamcenter.org" hidden>
+ 
+   <label>Name:</label>
+   <input type="text">
 
-    <label>Name:</label>
-    <input type="text">
-    <br>
-    <label>Email:</label>
-    <input type="text" name="Email">
-    <br>
-    <label>Company</label>
-    <input type="text" name="Company">
-    <br>
-    <label>Best Contact Method</label>
-    <br>
-    <input type="radio" name="contact_type" values="phone">Phone Call
-    <input type="radio" name="contact_type" values="Email">Email
-    <input type="radio" name="contact_type" values="text">Text Message
-    <br>
-    <input type="submit">
-    <input type="reset">
-
-</form>
+   <label>Number:</label>
+   <input type="text" name="Email">
+   <label>Email:</label>
+   <input type="text" name="Company">
+   <label>Best Contact Method</label>
+   <br>
+   <input type="radio" name="contact_type" values="phone">Phone Call
+   <input type="radio" name="contact_type" values="Email">Email
+   <input type="radio" name="contact_type" values="text">Text Message
+   <br>
+   <input type="submit">
+   <input type="reset">
+</body>
+ </html>
+ 
