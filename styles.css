@@ -1,14 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body {
-
-    font-family: 'Quicksand', sans-serif;
-    background-color: #e3f6f5;
-    color: #2d334a;
+ 
+   font-family: 'Quicksand', sans-serif;
+   background-color: #0B0C10;
+   color: #C5C6C7;
 }
 a {
-    color: red;
+   color: #45A29E;
 }
 a:hover{
-
-    color:green
+ 
+   color:rgb(100, 57, 57)
 }
+main{
+   max-width: 300px;
+   margin: 0 auto;
+}
+
+
+a{
+   text-decoration: none;
+   color:#f8f8f8
+}
+
+a:hover{
+   background-color:#f8f8f8;
+}
+
+#header{
+   background-color: #45A29E;
+}
+
+
+   a:hover {
+      color: rgb(109, 89, 197)
+  }
+  .center{
+      text-align: center;
+  }
+  
+  #navbar > a {
+      color: #45A29E;
+      text-decoration: none;
+      padding: 8px;
+      display: inline-block;
+  }
+  
+  #navbar > a:hover {
+      color: rgb(131, 122, 131);
+      text-decoration: none;
+      background-color: rgb(180, 168, 168);
+      padding: 8px;
+  }
+  
+  main{
+      max-width: 600px;
+      margin: 0 auto;
+  }
+
+
+input[type=submit]:focus{
+   background-color: #ab88df;
+ }
+ input[type=text] {
+   border: 5px #a09e1b;
+   border-radius: 0px;
+ }
+input{
+   padding: 100px;
+}
+input[type=text] {
+   width: 190%;
+   padding: 8px 50px;
+   margin: 50px 0;
+   box-sizing: border-box;
+ }
