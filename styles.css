@@ -85,4 +85,12 @@ input[type=text] {
     text-align: center;
    } 
     }
- 
+
+    #Image {
+      text-align: center;
+      
+    }
+    .round {
+      border-radius:50%;
+    
+ }
