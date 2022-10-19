@@ -38,6 +38,10 @@ a:hover{
   .center{
       text-align: center;
   }
+  #navbar {
+   background-color: #4c3e89;
+   color: rgb(214, 44, 44); 
+  }
   
   #navbar > a {
       color: #45A29E;
